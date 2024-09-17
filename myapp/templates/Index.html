@@ -1,0 +1,12 @@
+{% extends "layouts/Base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<h1>Welcome to Django App</h1>
+<h1>{{title}}</h1>
+
+<img src="{% static 'pythonslogo.png' %}" alt="MyImage" width="80">
+
+{% endblock  %}
